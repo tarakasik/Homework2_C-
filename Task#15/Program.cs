@@ -15,8 +15,8 @@ else
         Console.WriteLine("Its working day!");
     }
     
-    if(day>7)
+    if(day > 7 && day <1)
     {
-    Console.WriteLine("Incorrect Number");
+        Console.WriteLine("Incorrect Number");
     }
 }
