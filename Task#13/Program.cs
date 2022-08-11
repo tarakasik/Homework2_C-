@@ -15,7 +15,7 @@ int number5 = (number / 100 % 10);
     {
        Console.WriteLine(number4);
     }
-    if(number => 10000 && number <99999)
+    if(number > 9999 && number <99999)
     {
        Console.WriteLine(number5);
     }
