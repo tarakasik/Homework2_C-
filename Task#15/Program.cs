@@ -4,19 +4,15 @@ Console.Clear();
 Console.WriteLine("Input number day of week: ");
 int day = Convert.ToInt32(Console.ReadLine());
 
-if (day > 5 && day <=7)
+if(day > 5 && day <=7)
 {
-    Console.WriteLine("This weekend!");
+Console.WriteLine("This weekend!");
 }
-else 
+else if(day <= 5 && day >= 1)
+    {
+    Console.WriteLine("Its working day!");
+    }
+else
 {
-    if(day <= 5)
-    {
-        Console.WriteLine("Its working day!");
-    }
-    
-    if(day > 7 && day <1)
-    {
-        Console.WriteLine("Incorrect Number");
-    }
+Console.WriteLine("Incorrect Number!");
 }
